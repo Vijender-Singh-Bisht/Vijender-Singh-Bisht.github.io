@@ -1,3 +1,4 @@
+Console.log("Inside MyDetails.js");
 //Testimony
 let testimonies = [
     {
@@ -166,3 +167,5 @@ copyright2.innerText = names.innerText;
 CVLink.setAttribute('href','https://www.facebook.com/harshit.muhal');
 document.getElementById('about').getElementsByTagName('a')[0].setAttribute('href',CVLink.getAttribute('href'));
 // rolesList.innerHTML = "Software Engineer, Backend Developer, Machine Learning Enthusiast, Competitive Coder";
+
+Console.log("Exiting MyDetails.js");
